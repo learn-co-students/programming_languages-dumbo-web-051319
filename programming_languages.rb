@@ -55,7 +55,5 @@ def reformat_languages(languages)
   new_hash[:scala] = languages[:functional][:scala]
   new_hash[:scala][:style] = []
   new_hash[:scala][:style] << :functional
-
-
   new_hash
 end
